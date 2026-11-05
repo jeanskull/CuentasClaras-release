@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.7.1-ensayo/CuentasClaras_1.7.1_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.8.0-ensayo/CuentasClaras_1.8.0_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.7.1-ensayo/Cuentas.Claras_1.7.1_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.8.0-ensayo/Cuentas.Claras_1.8.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.7.1 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.8.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -58,31 +58,27 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.8.0
+
+**Mejorado**
+
+- Nuevo diseño de la familia JeanSkull Apps: mismas letras y colores que Hito, para que pasar de una app a otra se sienta natural.
+- La app abre en tema oscuro. Si prefieres el claro, cámbialo en Ajustes → Apariencia (también puedes elegir «Según el sistema»).
+- Celular en horizontal: la barra de abajo pasa a ser una barra delgada a la izquierda y el contenido aprovecha el ancho.
+- En el celular el encabezado ocupa una sola línea y se quitaron textos de relleno para ver más de tus cuentas.
+- Los diálogos (agregar gasto, mover dinero…) nunca son más altos que la pantalla y los botones Guardar y Cancelar siempre quedan a la vista.
+- Cada banco muestra 2 letras en su ícono (BBVA → BB, Binance → BI) para no confundir los que empiezan igual.
+
+**Corregido**
+
+- En celulares angostos algunos montos se salían de su tarjeta y las filas de gastos fijos y sueldo se apretaban; ahora bajan de línea.
+- Los avisos que aparecen abajo ya no tapan la barra de navegación ni bloquean sus botones.
+
 ## Novedades de la 1.7.1
 
 **Corregido**
 
 - En Android, tocar cualquier apartado (Resumen, Cuentas, Inversiones…) mostraba «No se pudo abrir el enlace» y no cambiaba de pantalla. Ahora la navegación funciona normal y solo los enlaces a páginas de internet se abren en el navegador.
-
-## Novedades de la 1.7.0
-
-**Agregado**
-
-- Inicia sesión con tu cuenta de Google en Ajustes → Cuenta y tus cuentas, deudas, movimientos y ajustes quedan iguales en tu computadora y tu celular. Es la misma cuenta que usa Hito. Ya no hace falta pasar el respaldo .json de un equipo a otro.
-- La primera vez eliges qué hacer con tus datos: subir lo de este equipo, bajar lo de la nube (antes se guarda un respaldo automático) o juntar los dos. Subir y bajar piden confirmar con un segundo toque. Los cambios se guardan primero en el equipo y se envían solos; sin conexión todo sigue funcionando.
-- Recordatorios de pagos en Ajustes → Avisos: te avisa de pagos de deudas, gastos fijos y días de sueldo, a la hora que elijas y, si quieres, también un día antes. En Android se programan aunque la app esté cerrada; en la computadora avisan mientras la app está abierta.
-- Enviar comentarios desde Ajustes → Acerca de. Nunca se envían tus cuentas, montos ni movimientos. Sin conexión se guardan y se envían solos al volver la red.
-- Buscador de monedas: en Ajustes → Precios y monedas → Agregar moneda, o con «+ Agregar moneda…» al final de la lista de monedas. Busca por símbolo o nombre («bitcoin», «sol») entre todas las criptos de Binance y la agrega con su precio de hoy. Si no aparece (por ejemplo una acción), la escribes con su precio a mano.
-- Catálogo de bancos, apps y exchanges de México (BBVA, Banorte, Santander, Hey Banco, Spin by OXXO, Bitso, Bybit, GBM, Cetes Directo y más): al escribir el nombre aparece en la lista y ya trae su tipo y lo que permite. Si no está, lo escribes como siempre.
-- Apariencia: tema Según el sistema, Claro u Oscuro; moneda con la que abre la app; abrir con los montos ocultos; y animaciones Según el sistema, Completas, Reducidas o Desactivadas.
-- Celebración breve al liquidar una deuda o llegar a una meta, y los totales cuentan hasta su nuevo valor cuando cambian (se apaga con el ajuste de animaciones).
-
-**Mejorado**
-
-- Ajustes ordenado por categorías, las mismas que Hito: Cuenta, Apariencia, Avisos, Precios y monedas, Datos y respaldo, Acerca de y Avanzado. En la computadora las categorías están en una lista a la izquierda; en el celular la lista ocupa la pantalla y cada categoría se abre en su propia pantalla («Atrás» regresa a la lista).
-- El sueldo pasó de Ajustes a Mes, como «Ingresos fijos», junto a los gastos fijos.
-- Los detalles de cómo se guardan tus datos pasaron a Avanzado y los créditos a Acerca de.
-- Transiciones suaves al cambiar de apartado, al abrir ventanas (en el celular suben desde abajo) y en los avisos.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
