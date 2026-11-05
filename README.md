@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.8.0-ensayo/CuentasClaras_1.8.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.9.0-ensayo/CuentasClaras_1.9.0_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.8.0-ensayo/Cuentas.Claras_1.8.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.9.0-ensayo/Cuentas.Claras_1.9.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.8.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.9.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -58,6 +58,29 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.9.0
+
+**Agregado**
+
+- Bots: «Se liquidó» en Cerrar o liquidar. Si se liquidó todo, lo que tenía el bot (tu capital más lo que fue reinvirtiendo) se anota solo en Pérdidas con el detalle de cuánto era capital y cuánto reinvertido. Si recuperaste una parte, escribes cuánto y a qué cuenta llegó; lo demás va a Pérdidas. En Movimientos aparece como «Liquidación».
+- Apartados con varias monedas: en un exchange, cada apartado (Fondos, Trading, Earn…) puede tener varias monedas. Las cuentas del mismo banco con el mismo nombre se juntan en un solo apartado con su total en la moneda que elijas (por ejemplo USDT). «+ Otra moneda» agrega una con el buscador de monedas.
+- «Juntar apartados por moneda» convierte «Fondos USDT» y «Fondos BTC» en un solo apartado «Fondos». No se pierde nada: solo cambia el nombre.
+- Las criptos que guardas en un apartado muestran lo que valen hoy y si vas arriba o abajo contra el precio al que las compraste.
+- Detalle de cada banco con pestañas: Resumen, Crecimiento (gráfica de cuánto tienes ahí día a día), Ingresos (intereses y ganancias de bots e inversiones de los últimos 6 meses) y Movimientos.
+- Bloqueo con PIN en Ajustes → Privacidad. En Android también con tu huella, rostro o el bloqueo de tu teléfono. Eliges si se pide al abrir, siempre que vuelvas o después de 1, 5 o 15 minutos.
+
+**Mejorado**
+
+- Cuentas ahora es una lista corta: una fila por banco con su total y cuánto cambió este mes, una barra con el reparto de tu dinero y filtros (Bancos, Exchanges, Con bots). Al tocar un banco se abre su detalle; en la computadora se ve al lado.
+- Los botones de cada banco se ordenaron: «+ Apartado» y «Cuadrar y ajustes» a la vista y lo demás en «Más».
+- Modo privado nuevo: ya no difumina la pantalla. Solo cambia las cifras de dinero por «$•••••» y los textos se siguen leyendo, también en ventanas y avisos. Mantén presionada una cifra para verla 3 segundos. En Ajustes → Privacidad eliges ocultar solo montos o también porcentajes.
+- Con los montos ocultos, los recordatorios de pagos no muestran cantidades.
+- En Android, «Atrás» en el detalle de un banco regresa a la lista de Cuentas.
+
+**Corregido**
+
+- El modo privado dejaba ver algunas cifras (por ejemplo lo que te pagaron este mes o porcentajes) y volvía ilegibles textos sin dinero.
+
 ## Novedades de la 1.8.0
 
 **Mejorado**
@@ -73,12 +96,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 
 - En celulares angostos algunos montos se salían de su tarjeta y las filas de gastos fijos y sueldo se apretaban; ahora bajan de línea.
 - Los avisos que aparecen abajo ya no tapan la barra de navegación ni bloquean sus botones.
-
-## Novedades de la 1.7.1
-
-**Corregido**
-
-- En Android, tocar cualquier apartado (Resumen, Cuentas, Inversiones…) mostraba «No se pudo abrir el enlace» y no cambiaba de pantalla. Ahora la navegación funciona normal y solo los enlaces a páginas de internet se abren en el navegador.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
