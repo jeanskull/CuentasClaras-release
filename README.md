@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.7.0-ensayo/CuentasClaras_1.7.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.7.1-ensayo/CuentasClaras_1.7.1_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.7.0-ensayo/Cuentas.Claras_1.7.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.7.1-ensayo/Cuentas.Claras_1.7.1_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.7.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.7.1 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -58,6 +58,12 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.7.1
+
+**Corregido**
+
+- En Android, tocar cualquier apartado (Resumen, Cuentas, Inversiones…) mostraba «No se pudo abrir el enlace» y no cambiaba de pantalla. Ahora la navegación funciona normal y solo los enlaces a páginas de internet se abren en el navegador.
+
 ## Novedades de la 1.7.0
 
 **Agregado**
@@ -77,22 +83,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - El sueldo pasó de Ajustes a Mes, como «Ingresos fijos», junto a los gastos fijos.
 - Los detalles de cómo se guardan tus datos pasaron a Avanzado y los créditos a Acerca de.
 - Transiciones suaves al cambiar de apartado, al abrir ventanas (en el celular suben desde abajo) y en los avisos.
-
-## Novedades de la 1.6.0
-
-**Agregado**
-
-- Cuentas Claras ya se instala: app para Windows (instalador .exe o .msi) y para Android (.apk), con su propio ícono. Tus datos se guardan en tu equipo y funcionan sin internet.
-- Los precios del dólar y de tus criptos se consultan solos al abrir la app y cada hora, sin depender de Claude. En Precios hay un botón «Actualizar ahora». Las acciones y lo que no esté en Binance conservan el precio que pongas a mano.
-- Respaldo automático cada semana fuera de la app (Documentos\Cuentas Claras\Respaldos en Windows y Descargas/Cuentas Claras en Android), conservando las últimas 8 copias. Se puede desactivar o hacer al momento con «Respaldar ahora».
-- Actualizaciones dentro de la app: en Ajustes → Acerca de puedes buscar, descargar e instalar versiones nuevas, verificadas antes de instalarse. Opción de aviso del sistema cuando sale una versión nueva.
-- Al restaurar un respaldo se guarda una copia de lo que tenías, con un botón para volver a ella.
-
-**Mejorado**
-
-- Restaurar un respaldo ahora es todo o nada: si algo falla, tus datos se quedan como estaban. También se restauran los precios guardados en el respaldo.
-- Las fuentes de la app vienen incluidas y no necesitan internet.
-- En Windows y Android, los respaldos se eligen y se guardan con el selector de archivos del sistema.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
