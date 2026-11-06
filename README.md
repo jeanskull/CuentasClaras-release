@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.9.0-ensayo/CuentasClaras_1.9.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.9.1-ensayo/CuentasClaras_1.9.1_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.9.0-ensayo/Cuentas.Claras_1.9.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.9.1-ensayo/Cuentas.Claras_1.9.1_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.9.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.9.1 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -58,6 +58,27 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.9.1
+
+**Agregado**
+
+- Conexión con Hito (Ajustes → Cuenta): tus pagos de deudas y gastos fijos de las próximas 3 semanas aparecen en Hito como tareas, y tus metas se ven ahí con su avance. Solo viaja el nombre, el monto y la fecha de cada pago; nunca tus saldos, cuentas ni movimientos. Se puede apagar cuando quieras.
+- Si marcas un pago como hecho en Hito, Cuentas Claras te pregunta si lo registras aquí; no se anota nada solo.
+- En Android, botón para abrir Hito desde Ajustes → Cuenta.
+- Cuadrar en un toque: cuando el detalle de un banco no coincide con lo que dice tu app del banco, «Ajustar la diferencia» lo deja igual y te deja decir por qué (intereses, un ingreso, una comisión, un gasto o solo ajuste). En Movimientos aparece como «Ajuste de saldo» y se puede borrar.
+- «Así te fue en {mes}»: durante la primera semana de cada mes, un resumen del mes que pasó (lo que entró, lo que gastaste, lo que sobró, rendimientos, abonos a deudas, cómo cambió tu patrimonio y la categoría donde más gastaste).
+- Filtros de Movimientos por fechas (desde/hasta) y por monto (mínimo/máximo).
+
+**Mejorado**
+
+- El plan para liquidar deudas muestra una línea de tiempo: cuándo terminas cada deuda, con su barra de avance.
+- Cada meta muestra de qué cuentas sale su dinero.
+- Los límites por categoría avisan al 80 % y cuando te pasas, justo al anotar el gasto, y la alerta dice cuánto te queda por día lo que resta del mes.
+
+**Corregido**
+
+- La app no avisaba sola de una actualización nueva: solo aparecía al tocar «Buscar». Ahora revisa al abrirse y cada 30 minutos.
+
 ## Novedades de la 1.9.0
 
 **Agregado**
@@ -80,22 +101,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 **Corregido**
 
 - El modo privado dejaba ver algunas cifras (por ejemplo lo que te pagaron este mes o porcentajes) y volvía ilegibles textos sin dinero.
-
-## Novedades de la 1.8.0
-
-**Mejorado**
-
-- Nuevo diseño de la familia JeanSkull Apps: mismas letras y colores que Hito, para que pasar de una app a otra se sienta natural.
-- La app abre en tema oscuro. Si prefieres el claro, cámbialo en Ajustes → Apariencia (también puedes elegir «Según el sistema»).
-- Celular en horizontal: la barra de abajo pasa a ser una barra delgada a la izquierda y el contenido aprovecha el ancho.
-- En el celular el encabezado ocupa una sola línea y se quitaron textos de relleno para ver más de tus cuentas.
-- Los diálogos (agregar gasto, mover dinero…) nunca son más altos que la pantalla y los botones Guardar y Cancelar siempre quedan a la vista.
-- Cada banco muestra 2 letras en su ícono (BBVA → BB, Binance → BI) para no confundir los que empiezan igual.
-
-**Corregido**
-
-- En celulares angostos algunos montos se salían de su tarjeta y las filas de gastos fijos y sueldo se apretaban; ahora bajan de línea.
-- Los avisos que aparecen abajo ya no tapan la barra de navegación ni bloquean sus botones.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
