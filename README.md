@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.11.0-ensayo/CuentasClaras_1.11.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.12.0-ensayo/CuentasClaras_1.12.0_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.11.0-ensayo/Cuentas.Claras_1.11.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.12.0-ensayo/Cuentas.Claras_1.12.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.11.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.12.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -28,6 +28,7 @@ Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Window
 - **Deudas** con intereses, pagos a meses, próximos pagos y un plan para liquidarlas.
 - **Mes**: ingresos, gastos por categoría con límites, gastos fijos y sueldo.
 - **Precios al día**: el dólar y tus criptos se actualizan solos.
+- **Niveles y rangos compartidos con Hito:** subes por hábitos (registrar, pagar a tiempo, cumplir metas), nunca por cuánto dinero tienes. Cada rango nuevo se revela con una celebración.
 - **Funciona sin conexión.** Tus datos se guardan en tu dispositivo y la app hace un respaldo automático cada semana.
 
 <p align="center">
@@ -58,6 +59,29 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.12.0
+
+**Agregado**
+
+- Diseño gemelo de Hito: el encabezado muestra la sección y un resumen; MXN/USD vive dentro de la tarjeta de patrimonio y Precios es un botón con ícono.
+- Ajustes con íconos y descripción en cada apartado.
+- Rangos después de LTS: Kernel, Mainframe, Root, Cluster, Datacenter, Nube, Supercómputo, Red Neuronal, Orbital y Cuántico, cada uno con su insignia y sus efectos. Después del nivel 100 llega el Prestigio, con marcos nuevos.
+- Cada rango nuevo se revela con una ceremonia a pantalla completa: tu camino hasta ahí, tus hábitos (nunca montos) y el marco que ganaste. El siguiente rango siempre es un misterio hasta que lo alcanzas.
+- Galería de rangos en tu perfil para volver a ver cada revelación; los logros de los rangos altos son secretos.
+- Aviso de versión nueva con «Instalar», barra de descarga, «Listo para instalar» y «Reintentar» si algo falla.
+- «Lo nuevo»: al abrir una versión nueva ves sus cambios con una portada; en Acerca de, cada cambio lleva su etiqueta Nuevo, Mejorado o Corregido.
+
+**Mejorado**
+
+- Gráficas animadas: la línea de tu progreso se dibuja, las barras se llenan, las columnas crecen y cada sección entra suave. Respetan Ajustes → Apariencia → Animaciones.
+- Al volver a pintarse (por ejemplo, cuando llegan precios), la gráfica aparece completa en lugar de volver a empezar el trazo.
+- Botón para elegir archivo de respaldo con el estilo de la app.
+- A partir del nivel 50, cada nivel pide como máximo 2,550 EXP. Los niveles anteriores no cambian.
+
+**Corregido**
+
+- Si un total se actualizaba a media animación, la cifra podía quedarse en un valor anterior hasta el siguiente cambio; ahora siempre termina en el valor real.
+
 ## Novedades de la 1.11.0
 
 **Agregado**
@@ -81,18 +105,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - El menú «⋯ Más» de una cuenta se salía por la izquierda cuando el botón bajaba a otra línea.
 - En exchanges no se podía agregar una segunda moneda a un apartado.
 - En el celular, los botones Guardar/Cancelar de los diálogos quedaban bajo la barra de gestos.
-
-## Novedades de la 1.10.0
-
-**Agregado**
-
-- Nivel compartido de las JeanSkull Apps: un solo nivel, EXP y rango para Cuentas Claras y Hito. Con sesión iniciada se juntan solos; sin sesión ves tu nivel de esta app.
-- EXP por hábitos, nunca por cuánto dinero tienes: registrar movimientos (hasta 6 al día), rachas de 7 días registrando, cuadrar un banco con su app, pagar deudas y gastos fijos antes de su fecha, terminar un mes dentro de tus límites y cumplir metas. No cuentan montos, ganancias ni casino.
-- Insignias de rango con tema de software (Alpha, Beta, Release Candidate, Estable, Producción, Optimizado y LTS); cada escalón suma detalles.
-- Pantalla «Subiste de nivel», más grande cuando llegas a un rango nuevo, con lo que desbloqueaste. Respeta el ajuste de animaciones.
-- Tu perfil (botón con tu inicial o tu insignia, arriba a la derecha): nombre, nivel, siguiente rango y cuánto te falta, y pestañas para tu EXP por app, marcos y logros.
-- Marcos para tu foto de perfil: cada rango nuevo desbloquea uno.
-- Logros de Cuentas Claras (primer registro, rachas, cuentas cuadradas, pagos a tiempo, mes dentro del plan, meta cumplida) y de la familia de apps.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
