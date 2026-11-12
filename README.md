@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.12.0-ensayo/CuentasClaras_1.12.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.13.0-ensayo/CuentasClaras_1.13.0_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.12.0-ensayo/Cuentas.Claras_1.12.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.13.0-ensayo/Cuentas.Claras_1.13.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.12.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.13.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -59,6 +59,26 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.13.0
+
+**Agregado**
+
+- Categorías a tu medida (Ajustes → Categorías): crea, renombra, ordena, oculta y junta categorías de gastos e ingresos, cada una con su ícono y su color. Renombrar o juntar actualiza tus movimientos, límites y gastos fijos; ocultar no borra nada de tu historial.
+- Recuperar lo perdido (en Pérdidas): arma un plan por monto al mes o por fecha, elige qué pérdidas entran y en qué cuenta vas guardando lo recuperado. Tus aportes y las ganancias que sacas del trading se cuentan por separado, con su línea de tiempo y la fecha en que terminas. La app nunca sugiere meterle más al trading.
+- Bots: «Meterle fondos» y «Agregar margen» a un toque desde Fondos del mismo exchange. La ficha muestra cuánto es dinero tuyo (capital, fondos y margen) y cuánto ganancia reinvertida, con el historial de lo que le has metido.
+- Comisiones al mover dinero: al convertir entre monedas (BTC a USDT, dólares a pesos) o pasar dinero entre apps, la app compara lo que salió contra lo que llegó y te muestra cuánto se perdió. Si es poco, lo anota como comisión; si es mucho, te pregunta.
+- La aportación del mes a tu plan aparece como tarea en Hito, y el plan suma EXP y logros por hábitos (mes cumplido, ganancia asegurada, semanas sin casino).
+
+**Mejorado**
+
+- Agregar gasto o ingreso: el monto en grande, las categorías en botones, fecha rápida «Hoy» y «Ayer» y «Guardar y otro» para capturar varios seguidos.
+- Mes: los movimientos van agrupados por día con su total; toca uno para editarlo o borrarlo y toca una categoría para ver solo sus movimientos. Los filtros caben en una fila y las comparaciones con el mes anterior son más cortas.
+- Los límites del mes ahora se ponen dentro de cada categoría.
+- Gráfica de tu progreso: un punto recorre la línea hasta el valor de hoy (más rápido en 30 días, más lento en «Todo») y al pasar el dedo o el mouse ves el patrimonio y la deuda de ese día.
+- Cierre del mes: el resumen del mes que terminó ahora incluye tus límites cumplidos o pasados, las comisiones, lo que le metiste a tus bots y tu plan de recuperación.
+- Pérdidas agrupadas por tipo (bots e inversiones, casino y otras) con el total de cada grupo.
+- Inversiones: «Ganancia ya realizada» y «Ciclos de bots este mes» solo aparecen cuando tienen algo.
+
 ## Novedades de la 1.12.0
 
 **Agregado**
@@ -81,30 +101,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 **Corregido**
 
 - Si un total se actualizaba a media animación, la cifra podía quedarse en un valor anterior hasta el siguiente cambio; ahora siempre termina en el valor real.
-
-## Novedades de la 1.11.0
-
-**Agregado**
-
-- Familia JeanSkull: hojas, menús, selector, avisos y confirmaciones con el mismo diseño que Hito.
-- «Más» y el menú «⋯» de cada cuenta se abren como hojas desde abajo: nunca se salen de la pantalla, tapan por completo lo de atrás y se cierran deslizando hacia abajo o tocando fuera.
-- Selector propio para monedas, cuentas y categorías (con buscador cuando hay muchas opciones) en lugar de la lista del sistema.
-- Exchanges: «+ Apartado» ofrece Fondos, Trading y Earn de un toque (o un nombre propio), y cada apartado muestra «+ Moneda» aunque tenga una sola.
-- Tu perfil: tarjeta con tu avatar, tu marco, tu nombre y tu rol. El rol se comparte con Hito.
-- Insignias vivas: brillo, anillo que gira, aura y destellos según tu rango. Al subir de nivel hay ráfaga de partículas, ondas y la barra se llena.
-
-**Mejorado**
-
-- Avisos de uno en uno, con «Deshacer» cuando aplica.
-- Casillas y enlaces más fáciles de tocar en el celular; letra mínima de 12 px.
-- Los logos de bancos eligen el color de letra que mejor se lee sobre su color.
-- Windows: la ventana abre oscura desde el inicio (sin pantalla blanca), con barra de título y de desplazamiento oscuras.
-
-**Corregido**
-
-- El menú «⋯ Más» de una cuenta se salía por la izquierda cuando el botón bajaba a otra línea.
-- En exchanges no se podía agregar una segunda moneda a un apartado.
-- En el celular, los botones Guardar/Cancelar de los diálogos quedaban bajo la barra de gestos.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
