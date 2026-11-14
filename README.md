@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.13.0-ensayo/CuentasClaras_1.13.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.13.1-ensayo/CuentasClaras_1.13.1_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.13.0-ensayo/Cuentas.Claras_1.13.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.13.1-ensayo/Cuentas.Claras_1.13.1_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.13.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.13.1 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -59,6 +59,17 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.13.1
+
+**Agregado**
+
+- Reliquia, la nueva app de la familia (tus logros de juegos convertidos en cartas), ya suma EXP a tu nivel. En tu perfil, «Tu EXP» muestra cuánto viene de Hito, de Cuentas Claras y de Reliquia.
+- Logro nuevo de la familia: «La familia completa», por ganar EXP en las tres apps.
+
+**Corregido**
+
+- «Sumar intereses» en una cuenta: si elegías otra fecha (por ejemplo el día 12 estando en el 14), a veces el interés quedaba con la fecha de hoy, porque la lista se volvía a dibujar y regresaba la fecha a hoy antes de guardar. Ahora la fecha y el monto que escribes se conservan hasta que tocas «Sumar intereses».
+
 ## Novedades de la 1.13.0
 
 **Agregado**
@@ -78,29 +89,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cierre del mes: el resumen del mes que terminó ahora incluye tus límites cumplidos o pasados, las comisiones, lo que le metiste a tus bots y tu plan de recuperación.
 - Pérdidas agrupadas por tipo (bots e inversiones, casino y otras) con el total de cada grupo.
 - Inversiones: «Ganancia ya realizada» y «Ciclos de bots este mes» solo aparecen cuando tienen algo.
-
-## Novedades de la 1.12.0
-
-**Agregado**
-
-- Diseño gemelo de Hito: el encabezado muestra la sección y un resumen; MXN/USD vive dentro de la tarjeta de patrimonio y Precios es un botón con ícono.
-- Ajustes con íconos y descripción en cada apartado.
-- Rangos después de LTS: Kernel, Mainframe, Root, Cluster, Datacenter, Nube, Supercómputo, Red Neuronal, Orbital y Cuántico, cada uno con su insignia y sus efectos. Después del nivel 100 llega el Prestigio, con marcos nuevos.
-- Cada rango nuevo se revela con una ceremonia a pantalla completa: tu camino hasta ahí, tus hábitos (nunca montos) y el marco que ganaste. El siguiente rango siempre es un misterio hasta que lo alcanzas.
-- Galería de rangos en tu perfil para volver a ver cada revelación; los logros de los rangos altos son secretos.
-- Aviso de versión nueva con «Instalar», barra de descarga, «Listo para instalar» y «Reintentar» si algo falla.
-- «Lo nuevo»: al abrir una versión nueva ves sus cambios con una portada; en Acerca de, cada cambio lleva su etiqueta Nuevo, Mejorado o Corregido.
-
-**Mejorado**
-
-- Gráficas animadas: la línea de tu progreso se dibuja, las barras se llenan, las columnas crecen y cada sección entra suave. Respetan Ajustes → Apariencia → Animaciones.
-- Al volver a pintarse (por ejemplo, cuando llegan precios), la gráfica aparece completa en lugar de volver a empezar el trazo.
-- Botón para elegir archivo de respaldo con el estilo de la app.
-- A partir del nivel 50, cada nivel pide como máximo 2,550 EXP. Los niveles anteriores no cambian.
-
-**Corregido**
-
-- Si un total se actualizaba a media animación, la cifra podía quedarse en un valor anterior hasta el siguiente cambio; ahora siempre termina en el valor real.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
