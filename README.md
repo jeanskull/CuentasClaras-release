@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.14.2-ensayo/CuentasClaras_1.14.2_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.14.3-ensayo/CuentasClaras_1.14.3_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.14.2-ensayo/Cuentas.Claras_1.14.2_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.14.3-ensayo/Cuentas.Claras_1.14.3_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.14.2 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.14.3 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -59,18 +59,18 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.14.3
+
+**Corregido**
+
+- Bots: ya puedes retirar el margen que agregaste. En la ficha del bot aparece «− Retirar margen» (cuando hay margen) y, al mover dinero desde un bot, puedes elegir «Margen». Lo que sacas se descuenta del margen y aparece como «Retiro de margen» en lo que le has metido; antes el margen se quedaba igual aunque lo sacaras.
+- Android: los recordatorios de pagos se programan sin alarmas exactas, que la app no tiene permitidas; antes podían no llegar.
+
 ## Novedades de la 1.14.2
 
 **Corregido**
 
 - Animación de rango nuevo (celular y PC): el nombre ya no se parte entre letras ni se sale de la pantalla (si no cabe, la letra se achica), y la insignia queda centrada en su lugar en vez de bajarse y encimarse con el texto.
-
-## Novedades de la 1.14.1
-
-**Mejorado**
-
-- Centavos chicos también en las tarjetas de resumen (rendimientos, inversiones, lo que abonaste y lo que te queda) y en los demás montos grandes. En las listas se quedan del mismo tamaño para que se lean bien.
-- La silueta de carga mientras llegan tus datos ahora solo se aclara y se oscurece: se ve igual y cuesta menos al celular.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
