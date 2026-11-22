@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.15.0-ensayo/CuentasClaras_1.15.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.16.0-ensayo/CuentasClaras_1.16.0_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.15.0-ensayo/Cuentas.Claras_1.15.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.16.0-ensayo/Cuentas.Claras_1.16.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.15.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.16.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -59,6 +59,19 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.16.0
+
+**Agregado**
+
+- Saludo en el Resumen: «Buenos días», «Buenas tardes» o «Buenas noches» según la hora, con tu nombre si lo pones en Ajustes → Apariencia → «¿Cómo te llamo?».
+- Frase del día arriba del Resumen: cuánto te queda este mes y cuánto sale por día, o qué tan cerca vas de una meta o de terminar una deuda. Con deudas te da ánimo (en verde). Y si las cosas se ponen feas (dos meses o más en rojo, pérdidas grandes en el mes, varios días apostando o deudas que suben) te regaña con cariño (en rojo) para que te pongas las pilas. Hay varias frases para cada situación y cambian cada día, para que no sea siempre la misma.
+- Tema «Cálido» (Ajustes → Apariencia → Tema): oscuro con ámbar y coral.
+- Festejo al cerrar el mes con ahorro: la primera vez que abres la app en un mes nuevo, si el anterior te dejó dinero libre.
+
+**Mejorado**
+
+- Los festejos (deuda liquidada, meta cumplida) ahora salen en una tarjeta con mensaje y el confeti usa los colores de tu tema.
+
 ## Novedades de la 1.15.0
 
 **Agregado**
@@ -77,13 +90,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Mover dinero: las cuentas salen agrupadas por banco con su saldo a la vista, y si no eliges origen se propone el de tu último movimiento.
 - Formulario de cuenta más corto: el rendimiento y la meta quedan en «Más opciones».
 - Tocar un aviso lo quita; «Deshacer» sigue funcionando.
-
-## Novedades de la 1.14.3
-
-**Corregido**
-
-- Bots: ya puedes retirar el margen que agregaste. En la ficha del bot aparece «− Retirar margen» (cuando hay margen) y, al mover dinero desde un bot, puedes elegir «Margen». Lo que sacas se descuenta del margen y aparece como «Retiro de margen» en lo que le has metido; antes el margen se quedaba igual aunque lo sacaras.
-- Android: los recordatorios de pagos se programan sin alarmas exactas, que la app no tiene permitidas; antes podían no llegar.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
