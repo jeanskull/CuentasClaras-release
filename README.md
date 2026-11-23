@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.16.0-ensayo/CuentasClaras_1.16.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.17.0-ensayo/CuentasClaras_1.17.0_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.16.0-ensayo/Cuentas.Claras_1.16.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.17.0-ensayo/Cuentas.Claras_1.17.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.16.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.17.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -59,6 +59,15 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.17.0
+
+**Mejorado**
+
+- Al actualizar, «Lo nuevo» se abre como hoja desde abajo, igual que en Hito y Reliquia: estrella, tu versión, lo que cambió y el botón «Entendido». Antes solo salía una franja que decía «se actualizó» con un enlace a Ajustes.
+- Ajustes se ven como en Hito y Reliquia: grupos con título (Tu cuenta, La app, Tus datos y Cuentas Claras), una fila con icono y descripción para cada apartado, y en el celular cada pantalla interna tiene su botón para volver con su nombre arriba.
+- El tema se elige con cuatro botones: Oscuro, Claro, Cálido y Sistema.
+- Novedades tiene su propia fila en Ajustes (antes estaba al final de «Acerca de»), con la etiqueta «Nuevo» mientras no la abras. El historial va por mes y año: el mes actual abierto y los anteriores plegados con cuántas versiones traen. Si un mes trae muchas versiones, se separa por semanas, y cada versión muestra un resumen («4 nuevos · 1 mejora») que se abre al tocarla.
+
 ## Novedades de la 1.16.0
 
 **Agregado**
@@ -71,25 +80,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 **Mejorado**
 
 - Los festejos (deuda liquidada, meta cumplida) ahora salen en una tarjeta con mensaje y el confeti usa los colores de tu tema.
-
-## Novedades de la 1.15.0
-
-**Agregado**
-
-- Rendimientos de todo un banco o exchange de una vez: en la cuenta, «Registrar rendimientos» muestra cada moneda con su % y lo que la app estima desde el último pago. Escribes lo que te pagaron en cada una (o tocas «Igual que lo estimado») y se guardan todas juntas.
-- Convertir dentro de un exchange: Más → «Convertir moneda» (por ejemplo, USDT → BTC). Lo que llega se calcula con el precio de hoy, y si esa moneda todavía no está en el apartado, se crea sola.
-- Pagar con tarjeta de crédito: al anotar un gasto puedes elegir tu tarjeta. El gasto se suma a lo que debes en ella, y si lo borras o lo editas, la deuda se ajusta.
-- Aumentar una deuda que ya tienes: en la deuda, «+ Aumentar deuda» pregunta por qué sube (una compra o cargo, intereses o comisión, o que te prestaron más). Si el dinero prestado llegó a una cuenta, su saldo sube sin contar como ingreso. En Mes aparece como «deuda +» y, si lo borras, todo regresa como estaba.
-- Varias monedas al crear un apartado: «+ Otra moneda» agrega filas de moneda y saldo (USDT, BTC, ETH…) en el mismo paso.
-- Cuentas en los montos: escribe «120+80» y la app hace la cuenta. En el gasto, «+ Sumar otro» y el resultado a la vista.
-
-**Mejorado**
-
-- «Actualizar saldo»: escribes el saldo que ves en tu banco y la app te dice cuánto subió o bajó y pregunta qué fue (intereses, depósito, comisión, gasto o solo ajustar). Anotar intereses con otra fecha queda plegado debajo.
-- El botón «+» ahora pregunta qué quieres anotar: gasto, ingreso, mover o convertir, abonar a una deuda, o repetir uno de tus gastos recientes con un toque.
-- Mover dinero: las cuentas salen agrupadas por banco con su saldo a la vista, y si no eliges origen se propone el de tu último movimiento.
-- Formulario de cuenta más corto: el rendimiento y la meta quedan en «Más opciones».
-- Tocar un aviso lo quita; «Deshacer» sigue funcionando.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
