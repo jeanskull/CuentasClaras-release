@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.17.1-ensayo/CuentasClaras_1.17.1_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.18.0-ensayo/CuentasClaras_1.18.0_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.17.1-ensayo/Cuentas.Claras_1.17.1_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.18.0-ensayo/Cuentas.Claras_1.18.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.17.1 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.18.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -59,20 +59,35 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.18.0
+
+**Agregado**
+
+- Plan de reparto para tus bots: en la ficha de cada bot creas un plan que reparte su ganancia en Retiro de ganancia, Margen de seguridad y Aumento de posición. Los porcentajes cambian por fases según el ciclo en que vas (ya viene puesto: del 1 al 9 todo a posición, del 10 al 20 25 / 25 / 50 y del 21 en adelante 50 / 25 / 25) y puedes repartir cada ciclo, cada 5, cada 10 o cada semana.
+- Lo que el bot ya había ganado antes del plan se reparte una sola vez, con sus propios porcentajes.
+- «Toca repartir»: la ficha y la lista de Inversiones muestran cuántos ciclos llevas para el siguiente reparto, y el aviso sale también en Tu siguiente paso. Al tocar «Ya lo hice en OKX» se anota todo: el retiro llega a la cuenta que elijas y el margen y la posición se quedan en el bot. Si moviste otra cantidad, la cambias antes de guardar. Si borras el reparto en Mes, todo regresa como estaba.
+- Gráfica de pastel «A dónde se ha ido tu ganancia» en cada bot, y «Comparar bots» en Inversiones (ganancia por día, % al año aproximado y ciclos con ganancia).
+- Registrar varios ciclos de una vez, o calcular la ganancia con lo que vale el bot hoy.
+- Los bots muestran en su tarjeta «+ Ciclo», «Repartir» (o «Plan de reparto») y «Margen», sin tener que abrirlos.
+- Colores de ganancia y pérdida (Ajustes → Apariencia): Bosque (verde y rojo más oscuros, la predeterminada), Océano (azul y naranja, se distinguen aunque cueste ver verde y rojo) y Joya (dorado y morado).
+- Gráficas animadas: «Dónde está tu dinero» como dona en el Resumen, y en Mes barras de lo que entró contra lo que gastaste en 6 meses junto con la dona de en qué gastaste.
+- Montos que usas seguido debajo del monto al agregar un gasto, para llenarlo con un toque.
+
+**Mejorado**
+
+- Cifras más limpias: los números usan la letra normal de la app (antes parecían de terminal), los pesos ya no repiten «MXN» y los totales grandes van sin centavos. Si prefieres verlo todo, Ajustes → Apariencia → Cifras → Completas.
+- Las etiquetas ya no van en mayúsculas.
+- Iconos nuevos de línea fina para Inicio, Cuentas, Deudas, Mes, Pérdidas, Ajustes y los bots.
+
+**Corregido**
+
+- Ya no sale el recuadro de Windows o Android con montos viejos al escribir en los campos de la app.
+
 ## Novedades de la 1.17.1
 
 **Corregido**
 
 - El festejo «¡Cerraste el mes con ahorro!» salía cada vez que abrías la app. Ahora la app guarda en su propia base que ya te felicitó por ese mes y lo escribe antes de mostrar la tarjeta, así sale una sola vez por mes.
-
-## Novedades de la 1.17.0
-
-**Mejorado**
-
-- Al actualizar, «Lo nuevo» se abre como hoja desde abajo, igual que en Hito y Reliquia: estrella, tu versión, lo que cambió y el botón «Entendido». Antes solo salía una franja que decía «se actualizó» con un enlace a Ajustes.
-- Ajustes se ven como en Hito y Reliquia: grupos con título (Tu cuenta, La app, Tus datos y Cuentas Claras), una fila con icono y descripción para cada apartado, y en el celular cada pantalla interna tiene su botón para volver con su nombre arriba.
-- El tema se elige con cuatro botones: Oscuro, Claro, Cálido y Sistema.
-- Novedades tiene su propia fila en Ajustes (antes estaba al final de «Acerca de»), con la etiqueta «Nuevo» mientras no la abras. El historial va por mes y año: el mes actual abierto y los anteriores plegados con cuántas versiones traen. Si un mes trae muchas versiones, se separa por semanas, y cada versión muestra un resumen («4 nuevos · 1 mejora») que se abre al tocarla.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
