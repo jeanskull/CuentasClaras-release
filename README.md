@@ -8,14 +8,14 @@
 Tus cuentas, inversiones, deudas y gastos del mes, claros. Para Android y Windows.</p>
 
 <p align="center">
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.18.0-ensayo/CuentasClaras_1.18.0_android.apk"><strong>Descargar para Android</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.18.1-ensayo/CuentasClaras_1.18.1_android.apk"><strong>Descargar para Android</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.18.0-ensayo/Cuentas.Claras_1.18.0_x64-setup.exe"><strong>Descargar para Windows</strong></a>
+  <a href="https://github.com/jeanskull/CuentasClaras-release/releases/download/v1.18.1-ensayo/Cuentas.Claras_1.18.1_x64-setup.exe"><strong>Descargar para Windows</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/jeanskull/CuentasClaras-release/releases">Todas las versiones</a>
 </p>
 
-<p align="center"><sub>Versión de prueba 1.18.0 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
+<p align="center"><sub>Versión de prueba 1.18.1 · Android 7 o superior · Windows 10 y 11 (64 bits)</sub></p>
 
 <p align="center">
   <img src="imagenes/resumen.jpg" width="820" alt="Resumen de Cuentas Claras con datos de ejemplo">
@@ -59,6 +59,17 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 - Cada semana la app guarda una copia de seguridad automática: en Windows en *Documentos\Cuentas Claras\Respaldos*, y en Android 10 o superior en *Descargas/Cuentas Claras*. También puedes descargar un respaldo cuando quieras desde Ajustes.
 - Para consultar precios, la app solo descarga el tipo de cambio y los precios públicos de criptos; no envía nada tuyo.
 
+## Novedades de la 1.18.1
+
+**Agregado**
+
+- Editar un ciclo ya anotado: en Mes, toca el ciclo y elige «Editar ciclo» para corregir lo que ganó cada ciclo, cuántas veces se repitió y la fecha. El bot se ajusta solo por la diferencia; lo que ya mandaste a otra cuenta no cambia.
+
+**Corregido**
+
+- Al registrar varios ciclos de una vez, la ganancia que escribes ahora es la de cada ciclo y se multiplica por cuántos fueron (por ejemplo, 2 ciclos de 0.50 suman 1.00). Antes se tomaba como el total de todos.
+- El historial del bot cuenta todos los ciclos de un registro múltiple (antes contaba uno solo), también en el promedio por ciclo y en «ciclos con ganancia».
+
 ## Novedades de la 1.18.0
 
 **Agregado**
@@ -82,12 +93,6 @@ Cuentas Claras te avisa dentro de la app cuando hay una versión nueva, en **Aju
 **Corregido**
 
 - Ya no sale el recuadro de Windows o Android con montos viejos al escribir en los campos de la app.
-
-## Novedades de la 1.17.1
-
-**Corregido**
-
-- El festejo «¡Cerraste el mes con ahorro!» salía cada vez que abrías la app. Ahora la app guarda en su propia base que ya te felicitó por ese mes y lo escribe antes de mostrar la tarjeta, así sale una sola vez por mes.
 
 Desde la app puedes ver el historial completo en **Ajustes → Acerca de → Registro de cambios**.
 
